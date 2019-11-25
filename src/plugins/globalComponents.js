@@ -1,15 +1,15 @@
-import Badge from "../components/Badge";
-import BaseAlert from "../components/BaseAlert";
-import BaseButton from "../components/BaseButton";
-import BaseCheckbox from "../components/BaseCheckbox";
-import BaseInput from "../components/BaseInput";
-import BasePagination from "../components/BasePagination";
-import BaseProgress from "../components/BaseProgress";
-import BaseRadio from "../components/BaseRadio";
-import BaseSlider from "../components/BaseSlider";
-import BaseSwitch from "../components/BaseSwitch";
-import Card from "../components/Card";
-import Icon from "../components/Icon";
+import Badge from "@/components/argon-design-system/Badge";
+import BaseAlert from "@/components/argon-design-system/BaseAlert";
+import BaseButton from "@/components/argon-design-system/BaseButton";
+import BaseCheckbox from "@/components/argon-design-system/BaseCheckbox";
+import BaseInput from "@/components/argon-design-system/BaseInput";
+import BasePagination from "@/components/argon-design-system/BasePagination";
+import BaseProgress from "@/components/argon-design-system/BaseProgress";
+import BaseRadio from "@/components/argon-design-system/BaseRadio";
+import BaseSlider from "@/components/argon-design-system/BaseSlider";
+import BaseSwitch from "@/components/argon-design-system/BaseSwitch";
+import Card from "@/components/argon-design-system/Card";
+import Icon from "@/components/argon-design-system/Icon";
 
 export default {
   install(Vue) {
@@ -27,3 +27,4 @@ export default {
     Vue.component(Icon.name, Icon);
   }
 };
+console.log(2)
