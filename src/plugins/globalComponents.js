@@ -27,4 +27,3 @@ export default {
     Vue.component(Icon.name, Icon);
   }
 };
-console.log(2)
