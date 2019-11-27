@@ -1,8 +1,8 @@
 import Vue from "vue";
 import Router from "vue-router";
-import AppHeader from "./layout/AppHeader";
-import AppFooter from "./layout/AppFooter";
-import ArgonDesignSystem from "./layout/ArgonDesignSystem";
+import AppHeader from "./layout/argon-design-system/AppHeader";
+import AppFooter from "./layout/argon-design-system/AppFooter";
+import ArgonDesignSystem from "./layout/argon-design-system/ArgonDesignSystem";
 
 import Components from "./views/argon-design-system/Components.vue";
 import Landing from "./views/argon-design-system/Landing.vue";
