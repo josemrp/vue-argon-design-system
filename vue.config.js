@@ -1,4 +1,5 @@
 const webpack = require('webpack');
+const isProd = process.env.NODE_ENV === "production";
 
 module.exports = {
   configureWebpack: {
@@ -10,7 +11,7 @@ module.exports = {
     ]
   },
   pwa: {
-    name: 'Vue Argon Design',
+    name: 'Vue Argon Dashboard',
     themeColor: '#172b4d',
     msTileColor: '#172b4d',
     appleMobileWebAppCapable: 'yes',
