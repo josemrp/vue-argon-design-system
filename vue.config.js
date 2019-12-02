@@ -31,6 +31,17 @@ module.exports = {
       // chunks to include on this page, by default includes
       // extracted common chunks and vendor chunks.
       chunks: ['chunk-vendors', 'chunk-common', 'index']
+    },
+    dashboard: {
+      // entry for the page
+      entry: 'src/argon-dashboard/main.js',
+      // the source template
+      template: 'dashboard/index.html',
+      // output as dist/index.html
+      filename: 'dashboard.html',
+      // chunks to include on this page, by default includes
+      // extracted common chunks and vendor chunks.
+      chunks: ['chunk-vendors', 'chunk-common', 'dashboard']
     }
   }
 };
