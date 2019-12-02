@@ -107,7 +107,7 @@
     </div>
 </template>
 <script>
-import Modal from "@/components/Modal.vue";
+import Modal from "@/argon-design-system/components/Modal.vue";
 export default {
   components: {
     Modal

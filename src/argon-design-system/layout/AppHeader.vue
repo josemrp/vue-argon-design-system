@@ -101,9 +101,9 @@
     </header>
 </template>
 <script>
-import BaseNav from "@/components/BaseNav";
-import BaseDropdown from "@/components/BaseDropdown";
-import CloseButton from "@/components/CloseButton";
+import BaseNav from "@/argon-design-system/components/BaseNav";
+import BaseDropdown from "@/argon-design-system/components/BaseDropdown";
+import CloseButton from "@/argon-design-system/components/CloseButton";
 
 export default {
   components: {
