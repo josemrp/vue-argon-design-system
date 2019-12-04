@@ -38,5 +38,11 @@ module.exports = {
       filename: 'dashboard.html',
       chunks: ['chunk-vendors', 'chunk-common', 'dashboard']
     }
+  },
+  // Hot reload
+  devServer: {
+    watchOptions: {
+      poll: true
+    }
   }
 };

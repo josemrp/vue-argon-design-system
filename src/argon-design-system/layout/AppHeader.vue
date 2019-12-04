@@ -57,6 +57,11 @@
                     <router-link to="/login" class="dropdown-item">Login</router-link>
                     <router-link to="/register" class="dropdown-item">Register</router-link>
                 </base-dropdown>
+                <li class="nav-item">
+                    <a href="/dashboard" class="nav-link">
+                        <span class="nav-link-inner--text">Go to Dashboard</span>
+                    </a>
+                </li>
             </ul>
             <ul class="navbar-nav align-items-lg-center ml-lg-auto">
                 <li class="nav-item">
